@@ -1,0 +1,58 @@
+.thumbnail {
+  width: 300px;
+}
+
+.horizontal1, .horizontal2 {
+  display: inline-block;
+}
+
+.vertical1 {
+  width: 320px
+}
+
+.horizontal1 {
+  width: 50px;
+  vertical-align: top;
+}
+
+.horizontal2 {
+  width: 250px;
+}
+
+p {
+font-family: Roboto, Arial;
+}
+
+.first {
+  margin: 0;
+  font-weight:500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.profil-pic {
+  width: 80%;
+  border-radius: 50px;
+}
+
+
+.second, .third {
+  color: rgb(96, 96, 96);
+  margin: 0;
+  font-size: 14px;
+}
+
+.second {
+margin: 7px 0 3px 0;
+}
+
+.gen-hor {
+  width: 310px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.searchbar {
+  display: block;
+}
+
