@@ -1,0 +1,10 @@
+.gen-vertical1 {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+}
+
+.gen-vertical2 {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: 100px 100px 200px;
+}

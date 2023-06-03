@@ -2,21 +2,29 @@
   width: 300px;
 }
 
+.gen-hor {
+  width: 310px;
+  display: inline-block;
+  vertical-align: top;
+}
+
 .horizontal1, .horizontal2 {
   display: inline-block;
 }
 
 .vertical1 {
-  width: 320px
+  width: 300px
 }
 
 .horizontal1 {
   width: 50px;
   vertical-align: top;
+  background-color: gray;
 }
 
 .horizontal2 {
-  width: 250px;
+  width: 245px;
+  background-color: gray;
 }
 
 p {
@@ -44,12 +52,6 @@ font-family: Roboto, Arial;
 
 .second {
 margin: 7px 0 3px 0;
-}
-
-.gen-hor {
-  width: 310px;
-  display: inline-block;
-  vertical-align: top;
 }
 
 .searchbar {
