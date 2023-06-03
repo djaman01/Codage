@@ -1,35 +1,18 @@
-body {
-  margin-bottom: 1000px;
-}
-
 .thumbnail {
   width: 300px;
 }
 
 .gen-hor {
-  width: 310px;
+  width: 300px;
   display: inline-block;
   vertical-align: top;
 }
 
-.horizontal1, .horizontal2 {
-  display: inline-block;
+.little-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
-.vertical1 {
-  width: 300px
-}
-
-.horizontal1 {
-  width: 50px;
-  vertical-align: top;
-  background-color: gray;
-}
-
-.horizontal2 {
-  width: 245px;
-  background-color: gray;
-}
 
 p {
 font-family: Roboto, Arial;
