@@ -1,3 +1,7 @@
+body {
+  -bottom: 1000px;
+}
+
 .div1 {
   background-color: rgb(12, 237, 12);
 }
@@ -18,6 +22,32 @@
 .container3 {
   display: flex;
   margin-top: 30px;
+}
+
+.header {
+  display: flex;
+  margin-top: 30px;
+  height: 70px;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.header-item1 {
+  width: 100px;
+  background-color: rgb(241, 25, 25);
+}
+
+.header-item2 {
+  width: 100px;
+  background-color: rgb(12, 237, 12);
+  
+}
+
+.header-item3 {
+  width: 100px;
+  background-color: rgb(241, 25, 25);
 }
 
 .flex-grow1 {
