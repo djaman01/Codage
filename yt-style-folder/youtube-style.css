@@ -8,11 +8,14 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 14px;
+  max-width: 1200px;
+  margin-left: 200px;
 }
 
 
 .thumbnail {
   width: 100%;
+  border-radius: 20px;
 }
 
 .little-grid {
