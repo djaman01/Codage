@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  height: 55px;
+}
+
+.header-left {
+  background-color: orange;
+}
+
+.header-center {
+  background-color: blue;
+
+}
+
+.header-right {
+  background-color: orange;
+}
