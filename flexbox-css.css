@@ -34,21 +34,6 @@ body {
 
 }
 
-.header-item1 {
-  width: 100px;
-  background-color: rgb(241, 25, 25);
-}
-
-.header-item2 {
-  width: 100px;
-  background-color: rgb(12, 237, 12);
-  
-}
-
-.header-item3 {
-  width: 100px;
-  background-color: rgb(241, 25, 25);
-}
 
 .flex-grow1 {
   flex-grow: 1;
@@ -64,5 +49,28 @@ body {
 .flex-grow2 {
   flex-grow: 2;
   background-color: rgb(241, 25, 25) ;
+}
+
+.header2 {
+  display: flex;
+  margin-top: 50px;
+  border: solid 2px black;
+  justify-content: center;
+  height: 400px;
+}
+
+.item1 {
+  display: flex;
+  background-color: rgb(241, 25, 25);
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.item2 {
+  display: flex;
+  background-color: rgb(12, 237, 12);
+  width: 200px;
+  align-items: end;
 }
 
