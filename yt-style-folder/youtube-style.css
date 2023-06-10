@@ -23,6 +23,10 @@ body {
   grid-template-columns: 50px 1fr;
 }
 
+.little-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
 
 p {
 font-family: Roboto, Arial;
@@ -49,6 +53,11 @@ font-family: Roboto, Arial;
 
 .second {
 margin: 7px 0 3px 0;
+}
+
+.vertical1 {
+  width: 100%;
+  vertical-align: top;
 }
 
 
