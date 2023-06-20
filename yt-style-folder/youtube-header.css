@@ -1,4 +1,4 @@
-header {
+.header {
   display: flex;
   height: 55px;
   justify-content: space-between;
