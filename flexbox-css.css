@@ -73,4 +73,4 @@ body {
   width: 200px;
   align-items: end;
 }
-
+/* align-items end n'es tpas totalement au fond car <p> a des margins-bottom (et même top) par défaut: il faut donc le cibler et les mettre à 0 si on veut que ça touche totalement le fond */
